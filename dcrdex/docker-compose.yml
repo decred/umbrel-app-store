@@ -1,0 +1,16 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: dcrdex_web_1
+      APP_PORT: 5758
+  
+  web:
+    image: peterzen/dcrdex:master
+    restart: on-failure
+    stop_grace_period: 1m
+    ports:
+      - 5758
+    volumes:
+      - ${APP_DATA_DIR}:/dex/.dexc

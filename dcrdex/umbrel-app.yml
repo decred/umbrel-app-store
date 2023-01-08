@@ -1,0 +1,24 @@
+manifestVersion: 1
+id: dcrdex
+category: Finance
+name: DCRDEX
+version: "0.6.0"
+tagline: Decentralized exchange built by the Decred Project
+description: >-
+  Trade crypto peer-to-peer.
+  No trading fees. No KYC.
+releaseNotes: >-
+developer: The Decred Developers
+website: https://dex.decred.org
+dependencies:
+repo: https://github.com/decred/dcrdex
+support: https://chat.decred.org/#/room/#dex:decred.org
+port: 5758
+icon: https://svgur.com/s/pPM
+gallery:
+  - https://imgur.com/a/j0fRTcX
+  - https://imgur.com/Mc3aTnR
+  - https://imgur.com/TFFU0ur
+path: ""
+defaultUsername: ""
+defaultPassword: ""
