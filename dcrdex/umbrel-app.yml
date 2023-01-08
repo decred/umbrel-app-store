@@ -1,5 +1,5 @@
 manifestVersion: 1
-id: dcrdex
+id: decred-dcrdex
 category: Finance
 name: DCRDEX
 version: "0.6.0"
