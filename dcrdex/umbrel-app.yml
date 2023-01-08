@@ -12,7 +12,7 @@ developer: The Decred Developers
 website: https://dex.decred.org
 dependencies:
 repo: https://github.com/decred/dcrdex
-support: https://chat.decred.org/#/room/#dex:decred.org
+support: https://chat.decred.org/
 port: 5758
 icon: https://svgshare.com/i/pNa.svg
 gallery:
