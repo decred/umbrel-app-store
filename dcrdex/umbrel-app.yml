@@ -14,11 +14,11 @@ dependencies:
 repo: https://github.com/decred/dcrdex
 support: https://chat.decred.org/#/room/#dex:decred.org
 port: 5758
-icon: https://svgur.com/s/pNa
+icon: https://svgshare.com/i/pNa.svg
 gallery:
-  - https://imgur.com/a/j0fRTcX
-  - https://imgur.com/Mc3aTnR
-  - https://imgur.com/TFFU0ur
+  - https://i.imgur.com/dkqCPtJ.png
+  - https://i.imgur.com/Mc3aTnR.png
+  - https://i.imgur.com/TFFU0ur.png
 path: ""
 defaultUsername: ""
 defaultPassword: ""
