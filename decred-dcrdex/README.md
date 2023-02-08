@@ -1,6 +1,6 @@
 ## Publishing the docker image
 
-The `dcrdex` image can be built and published to Docker Hub using the following steps.
+The `dcrdex` image can be built and published to Docker Hub using the following steps.  This requires the use of [BuildKit](https://docs.docker.com/build/buildkit/), which is part of recent docker releases.
 
 1. Log in to Docker Hub using the credentials that has write access to https://hub.docker.com/u/decred
 
