@@ -7,9 +7,9 @@ services:
       APP_PORT: 5758
   
   web:
-    image: peterzen/dcrdex:master
+    image: decred/dcrdex:v0.5.8
     restart: on-failure
-    stop_grace_period: 30m
+    stop_grace_period: 5m
     ports:
       - 5758
     volumes:
