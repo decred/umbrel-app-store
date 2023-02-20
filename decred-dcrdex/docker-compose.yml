@@ -7,7 +7,7 @@ services:
       APP_PORT: 5758
   
   web:
-    image: decred/dcrdex:v0.5.8
+    image: decred/dcrdex:v0.5.9
     restart: on-failure
     stop_grace_period: 5m
     ports:
