@@ -11,8 +11,11 @@ services:
   web:
     image: decred/dcrdex:v0.5.9-beta6
     restart: on-failure
-    stop_grace_period: 5m
     ports:
       - 5758
     volumes:
       - ${APP_DATA_DIR}:/dex/.dexc
+# When a trade is being settled, the DEX client requires time
+# to shut down cleanly due to the time sensitive nature of atomic
+# swaps, hence the long stop_grace_period value.
+    stop_grace_period: 15m
