@@ -9,12 +9,10 @@ services:
       APP_PORT: 5758
   
   web:
-    image: decred/dcrdex:v0.5.9
+    image: decred/dcrdex:v0.5.9@sha256:0b291dc2a7c20fc6e78343ddaae5868cf8090d529231115515426a32db13813e
     restart: on-failure
-    ports:
-      - 5758
     volumes:
-      - ${APP_DATA_DIR}:/dex/.dexc
+      - ${APP_DATA_DIR}/data:/dex/.dexc
 # When a trade is being settled, the DEX client requires time
 # to shut down cleanly due to the time sensitive nature of atomic
 # swaps, hence the long stop_grace_period value.
