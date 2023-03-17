@@ -11,7 +11,7 @@ Alternatively, you can use the Umbrel CLI as described below.
 
 To add an app store:
 ```
-sudo ~/umbrel/scripts/repo add https://github.com/peterzen/umbrel-decred-app-store/
+sudo ~/umbrel/scripts/repo add https://github.com/decred/umbrel-app-store/
 
 sudo ~/umbrel/scripts/repo update
 ```
@@ -23,5 +23,5 @@ sudo ~/umbrel/scripts/app install decred-dcrdex
 
 To remove this app store:
 ```
-sudo ~/umbrel/scripts/repo remove https://github.com/peterzen/umbrel-decred-app-store/
+sudo ~/umbrel/scripts/repo remove https://github.com/decred/umbrel-app-store/
 ```
