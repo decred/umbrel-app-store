@@ -2,10 +2,10 @@ manifestVersion: 1
 id: decred-dcrdex
 category: Finance
 name: DCRDEX
-version: "0.5.9"
+version: "0.6.0"
 tagline: Decentralized exchange built by the Decred Project
 description: >-
-  Trade Bitcoin, Decred, Dogecoin, Zcash and more peer-to-peer using atomic swaps.
+  Trade Bitcoin, USDC, Ethereum, Decred, Dogecoin, Zcash and more peer-to-peer using atomic swaps.
 
 
   No trading fees. No KYC. You stay in control of your assets throughout the entire trading process.
