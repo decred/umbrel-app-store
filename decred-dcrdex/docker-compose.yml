@@ -9,7 +9,7 @@ services:
       APP_PORT: 5758
   
   web:
-    image: decred/dcrdex:release-v0.6.1@sha256:c036a1587d559c9bc82d1c029a13a222ac2d7d642d817a0528cfddc4ee1780d4
+    image: decred/dcrdex:release-v0.6.2@sha256:62f92b6273ba4e8415f33ad3e15fd0f0555637c0993eb83914742390699bde06
     restart: on-failure
     volumes:
       - ${APP_DATA_DIR}/data:/dex/.dexc
