@@ -1,25 +1,27 @@
 manifestVersion: 1
 id: decred-dcrdex
 category: Finance
-name: DCRDEX
-version: "0.6.3"
-tagline: Decentralized exchange built by the Decred Project
+name: Bison Wallet
+version: "1.0.2"
+tagline: Multi-asset cryptocurrency wallet with integrated DEX
 description: >-
-  Trade Bitcoin, USDC, Ethereum, Decred, Dogecoin, Zcash and more peer-to-peer using atomic swaps.
+  Privacy-focused multi wallet with SPV and full node support.
 
+  Trade Bitcoin, USDT, USDC, Litecoin, Ethereum, Decred, Dogecoin, Zcash and more peer-to-peer on the integrated decentralized exchange using Atomic Swaps.  DCRDEX is truly decentralized - no KYC, no trading fees, no frontrunning, no middlemen.  Take advantage of low fees on the Polygon network.  Stay in control of your assets throughout the entire trading process.    Provide liquidity in any market or take advantage of arbitrage opportunities using the integrated market maker.
 
-  No trading fees. No KYC. You stay in control of your assets throughout the entire trading process.
+  Your keys, your coins.
 developer: The Decred Developers
-website: https://dex.decred.org
+website: https://bisonwallet.org
 dependencies: []
 repo: https://github.com/decred/dcrdex
 support: https://github.com/decred/dcrdex
 port: 5758
-icon: https://raw.githubusercontent.com/decred/umbrel-app-store/master/decred-dcrdex/images/dcrdex-logo.svg
+icon: https://raw.githubusercontent.com/peterzen/umbrel-app-store/bisonw-rebrand/decred-dcrdex/images/bison.svg
 gallery:
-  - https://raw.githubusercontent.com/decred/umbrel-app-store/master/decred-dcrdex/images/screenshot_1.png
-  - https://raw.githubusercontent.com/decred/umbrel-app-store/master/decred-dcrdex/images/screenshot_2.png
-  - https://raw.githubusercontent.com/decred/umbrel-app-store/master/decred-dcrdex/images/screenshot_3.png
+  - https://raw.githubusercontent.com/peterzen/umbrel-app-store/bisonw-rebrand/decred-dcrdex/images/screenshot_1.jpg
+  - https://raw.githubusercontent.com/peterzen/umbrel-app-store/bisonw-rebrand/decred-dcrdex/images/screenshot_2.jpg
+  - https://raw.githubusercontent.com/peterzen/umbrel-app-store/bisonw-rebrand/decred-dcrdex/images/screenshot_3.jpg
+  - https://raw.githubusercontent.com/peterzen/umbrel-app-store/bisonw-rebrand/decred-dcrdex/images/screenshot_4.jpg
 path: ""
 defaultUsername: ""
 defaultPassword: ""
