@@ -1,25 +1,27 @@
-## Decred App Store on Umbrel
+# Decred App Store on Umbrel
 
 Add this repository through the Umbrel user interface as shown in the following demo:
 
-https://user-images.githubusercontent.com/10330103/197889452-e5cd7e96-3233-4a09-b475-94b754adc7a3.mp4
+[![Watch the video](https://img.youtube.com/vi/4gcK-WYjqhc/maxresdefault.jpg)](https://www.youtube.com/watch?v=4gcK-WYjqhc)
 
+## Or use the Umbrel CLI as described below
 
-Alternatively, you can use the Umbrel CLI as described below.
+### Add app store
 
-To add an app store:
-```
+```sh
 sudo ~/umbrel/scripts/repo add https://github.com/decred/umbrel-app-store/
 
 sudo ~/umbrel/scripts/repo update
 ```
 
-To install DCRDEX from the app store
-```
+### Install Bison Wallet
+
+```sh
 sudo ~/umbrel/scripts/app install decred-dcrdex
 ```
 
-To remove this app store:
-```
+### Remove this app store
+
+```sh
 sudo ~/umbrel/scripts/repo remove https://github.com/decred/umbrel-app-store/
 ```
